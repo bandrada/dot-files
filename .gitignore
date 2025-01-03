@@ -5,6 +5,7 @@
 
 # include
 !.gitignore
+!README.md
 !alacritty/
 !ghostty/
 !nvim/
