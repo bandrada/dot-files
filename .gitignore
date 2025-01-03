@@ -6,9 +6,9 @@
 # include root
 !.gitignore
 !README.md
-!.tmux.config
+!.tmux.conf
 
-# include subfolders
+# include specific config folders
 !.config/
 .config/*
 !.config/alacritty
