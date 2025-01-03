@@ -1,0 +1,10 @@
+# ignore everything at current level by default
+/*
+# ignore all DS_Store everywher
+**/.DS_Store
+
+# include
+!.gitignore
+!alacritty/
+!ghostty/
+!nvim/

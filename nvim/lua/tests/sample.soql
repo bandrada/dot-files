@@ -1,0 +1,4 @@
+SELECT Id, Name, BillingAddress
+FROM Account
+WHERE Name = 'Blaine Andrada'
+ORDER BY Name ASC
