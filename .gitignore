@@ -11,5 +11,5 @@
 # include subfolders
 !.config/
 .config/*
-!.config/alacritty/*
+!.config/alacritty
 !.config/nvim
