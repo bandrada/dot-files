@@ -1,11 +1,15 @@
-# ignore everything at current level by default
 /*
-# ignore all DS_Store everywher
+
+# ignore all DS_Store everywhere
 **/.DS_Store
 
-# include
+# include root
 !.gitignore
 !README.md
-!alacritty/
-!ghostty/
-!nvim/
+!.tmux.config
+
+# include subfolders
+!.config/
+.config/*
+!.config/alacritty/*
+!.config/nvim
