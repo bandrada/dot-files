@@ -12,4 +12,5 @@
 !.config/
 .config/*
 !.config/alacritty
+!.config/ghostty
 !.config/nvim
