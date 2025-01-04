@@ -1,4 +1,4 @@
-#theme = CutiePro
+theme = CutiePro
 #theme = cyberpunk
 #theme = Desert
 #theme = gruvbox-material
@@ -23,7 +23,6 @@
 #theme = Later This Evening
 #theme = Mariana
 #theme = MonaLisa
-theme = Neon
 #theme = nord
 #theme = NvimDark
 #theme = Ollie
@@ -61,7 +60,6 @@ theme = Neon
 #theme = wilmersdorf
 #theme = xcodedark
 #theme = xcodedarkhc
-#theme = Zenburn
 
 # -- setup found on x
 #theme = niji
@@ -70,3 +68,7 @@ macos-titlebar-style = transparent
 
 background-opacity = 0.7
 background-blur-radius = 20
+
+# actions
+keybind = ctrl+r=reload_config
+#reload_config
