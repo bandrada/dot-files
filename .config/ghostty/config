@@ -1,4 +1,4 @@
-theme = CutiePro
+#theme = CutiePro
 #theme = cyberpunk
 #theme = Desert
 #theme = gruvbox-material
@@ -23,7 +23,7 @@ theme = CutiePro
 #theme = Later This Evening
 #theme = Mariana
 #theme = MonaLisa
-#theme = nord
+theme = nord
 #theme = NvimDark
 #theme = Ollie
 #theme = Overnight Slumber
