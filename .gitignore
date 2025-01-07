@@ -7,6 +7,9 @@
 !.gitignore
 !README.md
 !.tmux.conf
+!.bashrc
+!startup.bash
+!aliases.bash
 
 # include specific config folders
 !.config/
