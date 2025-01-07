@@ -105,9 +105,9 @@ if [ -f ~/.aliases ]; then
     . ~/.aliases
 fi
 
-if [ -f ~/.startup ]; then
-    . ~/.startup
-fi
+#if [ -f ~/.startup ]; then
+#    . ~/.startup
+#fi
 
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
