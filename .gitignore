@@ -8,8 +8,8 @@
 !README.md
 !.tmux.conf
 !.bashrc
-!startup.bash
-!aliases.bash
+!.startup
+!.aliases
 
 # include specific config folders
 !.config/
