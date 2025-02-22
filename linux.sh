@@ -1,0 +1,2 @@
+./shared.sh
+stow bash

@@ -1,19 +1,18 @@
-/*
+#/*
 
 # ignore all DS_Store everywhere
-**/.DS_Store
+#**/.DS_Store
 
 # include root
-!.gitignore
-!README.md
-!.tmux.conf
-!.bashrc
-!.startup
-!.aliases
+#!.gitignore
+#!README.md
+#!.tmux.conf
+#!.bashrc
+#!.startup
+#!.aliases
 
 # include specific config folders
-!.config/
-.config/*
-!.config/alacritty
-!.config/ghostty
-!.config/nvim
+#!.config/
+#.config/*
+#!.config/ghostty
+#!.config/nvim

@@ -1,5 +1,0 @@
-#!/usr/bin/env bash
-
-#alacritty --command tmux # alacritty calls bashrc on startup. infi loop here
-firefox # needs to be opened with a daemon shell
-slack

@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+firefox # needs to be opened with a daemon shell
+slack

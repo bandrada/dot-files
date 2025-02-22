@@ -1,0 +1,2 @@
+stow ghostty
+stow nvim
