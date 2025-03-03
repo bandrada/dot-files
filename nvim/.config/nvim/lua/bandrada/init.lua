@@ -1,2 +1,2 @@
-require("bandrada.remap")
-require("bandrada.set")
+require("bandrada.keybinds")
+require("bandrada.settings")

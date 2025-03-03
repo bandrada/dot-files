@@ -40,3 +40,4 @@ vim.filetype.add({
         log = 'sflog'
     }
 })
+
