@@ -1,5 +1,7 @@
 #!/bin/zsh
 
-bash shared.sh
+stow ghostty
+stow nvim
+stow tmux
 
 stow zsh
