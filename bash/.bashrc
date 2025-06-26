@@ -104,5 +104,5 @@ if ! shopt -oq posix; then
   fi
 fi
 
-export HYPER_DIR="/home/bandrada/hyper"
+export GSD_DIR="/home/bandrada/gsd"
 export PATH="$HOME/.local/bin:$PATH"
