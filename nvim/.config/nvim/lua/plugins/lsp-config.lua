@@ -10,8 +10,16 @@ return {
         "williamboman/mason-lspconfig.nvim",
         lazy = false,
         opts = {
-            auto_install = true,
-        },
+            ensure_installed = {
+                -- both are an invalid entry apparently.. guessing there must be the faded text in :Mason to show that its supported
+                --"apex_ls",
+                --"apex-language-server",
+                "lwc_ls",
+                "lua_ls",
+                "pyright",
+            },
+            automatic_installation = true,
+        }
     },
     {
         "neovim/nvim-lspconfig",
@@ -29,14 +37,13 @@ return {
                 apex_enable_completion_statistics = false,
                 filetypes = {
                     "apex",
-                    "apexcode",
-                    --"cls",
+                    "cls",
                 },
+                -- apex_ls requires java to install and run.. also, gpt is pretty sure node needs to be installed x
                 cmd = {
-                    "java",
-                    "-jar",
-                    "/Users/bandrada/.local/share/nvim/mason/packages/apex-language-server/extension/dist/apex-jorje-lsp.jar",
-                    "apex_language_server",
+                    'java',
+                    '-jar',
+                    os.getenv("HOME") .. "/.local/share/nvim/mason/packages/apex-language-server/extension/dist/apex-jorje-lsp.jar"
                 },
             })
 
