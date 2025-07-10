@@ -104,5 +104,6 @@ if ! shopt -oq posix; then
   fi
 fi
 
+export SF_HIDE_RELEASE_NOTES_FOOTER="true"
 export GSD_DIR="/home/bandrada/gsd"
 export PATH="$HOME/.local/bin:$PATH"
