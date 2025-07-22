@@ -19,8 +19,6 @@ pacman -Q git &>/dev/null || pacman -Sy --noconfirm --needed git
 echo -e "\nCloning dotfiles..."
 rm -rf ~/.local/share/omarchy/
 git clone https://github.com/bandrada/dot-files.git ~/.local/share/omarchy
-ls -al ~/.local/share
-ls -al ~/.local/share/omarchy
 #>/dev/null
 
 # Use custom branch if instructed
@@ -32,4 +30,4 @@ if [[ -n "$OMARCHY_REF" ]]; then
 fi
 
 echo -e "\nInstallation starting..."
-source ~/.local/share/omarch/wsl/install.sh
+source ~/.local/share/omarchy/wsl/install.sh
