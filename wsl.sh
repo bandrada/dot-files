@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# run `pacman -Sy wget && wget -qO- https://raw.githubusercontent.com/bandrada/dot-files/refs/heads/main/wsl.sh | bash`
+# cd ~ && pacman -Sy wget && wget -qO- https://raw.githubusercontent.com/bandrada/dot-files/refs/heads/main/wsl.sh | bash
 
 ascii_art=' ▄██████▄    ▄▄▄▄███▄▄▄▄      ▄████████    ▄████████  ▄████████    ▄█    █▄    ▄██   ▄
 ███    ███ ▄██▀▀▀███▀▀▀██▄   ███    ███   ███    ███ ███    ███   ███    ███   ███   ██▄
@@ -30,4 +30,5 @@ if [[ -n "$OMARCHY_REF" ]]; then
 fi
 
 echo -e "\nInstallation starting..."
-source ~/.local/share/omarchy/wsl/install.sh
+#source ~/.local/share/omarchy/wsl/install.sh
+source ~/.local/share/omarchy/wsl/user.sh

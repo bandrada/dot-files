@@ -1,7 +1,6 @@
 #!/bin/bash
 
-# Need gum to query for input
-yay -S --noconfirm --needed gum
+pacman -S --noconfirm gum
 
 USER=$(gum input --placeholder "username" --prompt "Username> ")
 useradd -m $USER
@@ -15,3 +14,4 @@ echo "[network]" >> /etc/wsl.conf
 echo "hostname=$HOST" >> /etc/wsl.conf
 echo "generateHosts=false" >> /etc/wsl.conf
 
+gum confirm "Reboot to setup complete user setup?" && reboot
