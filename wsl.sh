@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# run `pacman -S wget && wget -qO- https://raw.githubusercontent.com/bandrada/dot-files/refs/heads/main/wsl.sh | bash`
+# run `pacman -Sy wget && wget -qO- https://raw.githubusercontent.com/bandrada/dot-files/refs/heads/main/wsl.sh | bash`
 
 ascii_art=' ▄██████▄    ▄▄▄▄███▄▄▄▄      ▄████████    ▄████████  ▄████████    ▄█    █▄    ▄██   ▄
 ███    ███ ▄██▀▀▀███▀▀▀██▄   ███    ███   ███    ███ ███    ███   ███    ███   ███   ██▄
@@ -14,7 +14,7 @@ ascii_art=' ▄██████▄    ▄▄▄▄███▄▄▄▄      �
 
 echo -e "\n$ascii_art\n"
 
-pacman -Q git &>/dev/null || sudo pacman -Sy --noconfirm --needed git
+pacman -Q git &>/dev/null || pacman -Sy --noconfirm --needed git
 
 echo -e "\nCloning dotfiles..."
 rm -rf ~/.local/share/omarchy/

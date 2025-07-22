@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo pacman -S --needed --noconfirm base-devel
+pacman -S --needed --noconfirm base-devel
 
 if ! command -v yay &>/dev/null; then
   cd /tmp
@@ -12,5 +12,5 @@ if ! command -v yay &>/dev/null; then
   cd ~
 
   # Add fun and color to the pacman installer
-  sudo sed -i '/^\[options\]/a Color\nILoveCandy' /etc/pacman.conf
+  sed -i '/^\[options\]/a Color\nILoveCandy' /etc/pacman.conf
 fi
