@@ -18,7 +18,10 @@ pacman -Q git &>/dev/null || pacman -Sy --noconfirm --needed git
 
 echo -e "\nCloning dotfiles..."
 rm -rf ~/.local/share/omarchy/
-git clone https://github.com/bandrada/dot-files.git ~/.local/share/omarchy >/dev/null
+git clone https://github.com/bandrada/dot-files.git ~/.local/share/omarchy
+ls -al ~/.local/share
+ls -al ~/.local/share/omarchy
+#>/dev/null
 
 # Use custom branch if instructed
 if [[ -n "$OMARCHY_REF" ]]; then
