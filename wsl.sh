@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# run `pacman -S wget && wget -q0- https://github.com/bandrada/dot-files/wsl.sh | bash`
+# run `pacman -S wget && wget -qO- https://raw.githubusercontent.com/bandrada/dot-files/refs/heads/main/wsl.sh | bash`
 
 ascii_art=' ▄██████▄    ▄▄▄▄███▄▄▄▄      ▄████████    ▄████████  ▄████████    ▄█    █▄    ▄██   ▄
 ███    ███ ▄██▀▀▀███▀▀▀██▄   ███    ███   ███    ███ ███    ███   ███    ███   ███   ██▄
@@ -29,4 +29,4 @@ if [[ -n "$OMARCHY_REF" ]]; then
 fi
 
 echo -e "\nInstallation starting..."
-
+source ~/.local/share/omarch/wsl/install.sh
